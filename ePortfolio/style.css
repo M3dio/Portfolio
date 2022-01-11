@@ -1,0 +1,153 @@
+#navbar1 {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: black;
+}
+
+.top{
+    padding: 5%;
+    background-color: black;
+}
+
+.herr{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.rechts{
+position: absolute;
+right: 1%;
+top: 21%;
+width: 11.5%;
+}
+
+.links{
+position: absolute;
+left: 1%;
+top: 21%;
+width: 11.5%;
+}
+
+
+.navButtons{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+.herrHead{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.titel{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin-top: -3%;
+    font-size: x-large;
+}
+
+.interpret{
+    color: white;
+    font-weight: bold;
+    text-align: center;  
+    margin-bottom: 3%;
+    margin-top: 0%;
+}
+
+
+#mixtapes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5%;
+    object-position: center;
+}
+
+#personal{
+    font-size: large;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 5%;
+    object-position: center;
+}
+
+.video{
+    
+    margin-left: 5%;
+    border: 5px solid white;
+    animation: fadeOut 1s;
+}
+
+.video:hover{
+    animation: fade 0.7s;
+    border: 5px solid rgb(53, 0, 0);
+}
+
+.cover:hover{
+    animation: fade 0.7s;
+    border: 5px solid rgb(53, 0, 0);
+}
+
+@keyframes fade{
+    from{
+        border: 5px solid white;
+    }
+    to{
+        border: 5px solid rgb(53, 0, 0);
+    }
+}
+
+@keyframes fadeOut{
+    from{
+        border: 5px solid rgb(53, 0, 0);
+    }
+    to{
+        border: 5px solid white;
+    }
+}
+
+.persoenlich{
+    font-size: large;
+    margin: 5%;
+}
+
+.cover{
+    width: 90%;
+    margin: 5%; 
+    border: 5px solid white;
+    border-radius: 5%;
+    animation: fadeOut 1s;
+}
+
+
+.navbar {
+    border: white;
+    border-radius: 10px;
+    color: white;
+}
+
+body{
+    margin: 0% !important;
+}
+
+.footer{
+    background-color: darkgray;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0%;
+}
+
+#kontaktDaten{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5%;
+    object-position: center;
+    padding-left: 5.5%;
+}
+
+.kontaktInhalt{
+    padding: 5%;
+    margin-top: -3%;
+}
